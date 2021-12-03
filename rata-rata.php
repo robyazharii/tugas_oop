@@ -1,3 +1,9 @@
+/** angoota kelompok
+Roby Azhari
+Hanif Zakiy
+M Wildan Abd
+Syarhan Farauq
+**/
 <?php
 abstract class ujian{
    public $uts;
