@@ -1,4 +1,4 @@
-/** angoota kelompok
+/** anggota kelompok
 Roby Azhari
 Hanif Zakiy
 M Wildan Abd
@@ -36,10 +36,10 @@ class roby extends ujian implements detail_ujian{
 	   }
 }
 
-class angel extends ujian implements detail_ujian{
+class regi extends ujian implements detail_ujian{
    public function hitung_ujian(){
 		$x = ($this->uts + $this->uas)/ 2;
-     return "Nilai angel $x";
+     return "Nilai regi $x";
    }
    
    public function nilai_ujian(){
@@ -60,7 +60,7 @@ echo $ujian_roby->hitung_ujian();
 echo cetak_detail_ujian($ujian_roby);
 echo "<hr>";
 
-$ujian_angel = new angel(90, 80);
-echo $ujian_angel->hitung_ujian();
-echo cetak_detail_ujian($ujian_angel);
+$ujian_regi = new regi(90, 80);
+echo $ujian_regi->hitung_ujian();
+echo cetak_detail_ujian($ujian_regi);
 ?>
