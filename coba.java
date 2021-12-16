@@ -28,7 +28,7 @@ public class coba {
                 input.nextLine(); //Akan membuang input saat ini sehingga user dapat memasukkan input yang baru
             }
 
-        }while(lanjutkanInput);
+        }while(lanjutkanInput); 
 
     }
 }
